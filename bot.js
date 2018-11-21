@@ -6,7 +6,7 @@ const developers = ['427611667631964180'];
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setGame(`i Love you, 💙`,'https://www.twitch.tv/Mdax')
-  client.user.setStatus("idle")
+  client.user.setStatus("invisble")
 });
 
 client.on('message', message => {
